@@ -1,0 +1,19 @@
+https://youtu.be/ab1XMJQ10Q8
+
+commands:
+php -v
+wget https://raw.githubusercontent.com/linuxsyr/owncloud/main/owncloud.bash
+ls
+chmod +x owncloud.bash
+sudo bash ./owncloud.bash
+
+in new terminal
+cat owncloud.bash
+
+Simplylearn docker installation:
+https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-docker-on-ubuntu
+
+Owncloud Installation:
+https://doc.owncloud.com/server/next/admin_manual/installation/docker/#introduction
+
+ 
