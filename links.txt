@@ -26,6 +26,27 @@ Google cloud cli/sdk:
 https://cloud.google.com/sdk/docs/install#linux
 
 
+-----------------------------------------------------------------------------------------
+Apec code:
+public class Demo1 {
+    
+    public void msg(){
+        Account acc = new Account();
+    	acc.Name = 'Dnyanesh';
+    	acc.Phone = '7757801496';
+        System.debug('Hi'+acc);
+    }
+    public void temp(Decimal cel){
+        Decimal faren = ((cel*9)/5)+32;
+        System.debug('faren = '+faren);
+    }
+}
+
+Execute:
+Demo1 d1 = new Demo1();
+d1.temp(13);
+d1.msg();
+------------------------------------------------------------------------------------------
 
 
  
